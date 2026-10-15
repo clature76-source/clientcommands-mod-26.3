@@ -5,8 +5,11 @@ Earthcomputer, both for **Minecraft 26.3**.
 
 | Work | Loader | Source | Ready-to-use jar |
 |---|---|---|---|
-| **NeoForge port** — the whole mod, moved to the NeoForge loader | NeoForge 26.3 | repository root | [releases](https://github.com/clature76-source/clientcommands-mod-26.3/releases) |
-| **Fabric add-on** — charoite-aware enchantment prediction for Mielon's The Sift | Fabric | [`fabric-charoite/`](fabric-charoite/) | [`fabric-charoite/dist/`](fabric-charoite/dist/) |
+| **NeoForge port** — the whole mod, moved to the NeoForge loader | NeoForge 26.3 | repository root | [v2.16.2-neoforge](https://github.com/clature76-source/clientcommands-mod-26.3/releases/tag/v2.16.2-neoforge) |
+| **Fabric add-on** — charoite-aware enchantment prediction for Mielon's The Sift | Fabric | [`fabric-charoite/`](fabric-charoite/) | [v2.16.2-fabric-charoite](https://github.com/clature76-source/clientcommands-mod-26.3/releases/tag/v2.16.2-fabric-charoite) |
+
+Both jars are attached to [releases](https://github.com/clature76-source/clientcommands-mod-26.3/releases),
+not committed to the repository.
 
 Adds several useful client-side commands to Minecraft. All commands and features are the work of the
 original project. This repository holds two pieces of work built on top of it — a port to another
@@ -27,8 +30,8 @@ NeoForge, or with The Sift on Fabric, and for no other purpose.
 
 1. Install [NeoForge for Minecraft 26.3](https://neoforged.net/) (developed against
    `26.3.0.51-beta`, tested on `26.3.0.46-beta`).
-2. Download the mod jar from this repository's
-   [releases](https://github.com/clature76-source/clientcommands-mod-26.3/releases)
+2. Download the mod jar from the
+   [v2.16.2-neoforge release](https://github.com/clature76-source/clientcommands-mod-26.3/releases/tag/v2.16.2-neoforge)
    or build it yourself, and move it to the mods folder (`.minecraft/mods`).
 
 Nothing else needs to be installed. **Fabric API is not required**: the Forgified Fabric API
@@ -40,10 +43,10 @@ modules and the Fabric-only libraries this mod uses are jar-in-jar bundled insid
    [Fabric API](https://modrinth.com/mod/fabric-api) for Minecraft 26.3.
 2. Install **Mielon's The Sift** (mod id `the_sift`), version 1.1.2 for MC 26.3. The add-on does
    nothing without it, but is harmless to leave installed.
-3. Take `clientcommands-2.16.2-fabric-charoite.jar` from
-   [`fabric-charoite/dist/`](fabric-charoite/dist/), or build it from
-   [`fabric-charoite/fabric-charoite.patch`](fabric-charoite/fabric-charoite.patch), and move it to
-   the mods folder.
+3. Download `clientcommands-2.16.2-fabric-charoite.jar` from the
+   [v2.16.2-fabric-charoite release](https://github.com/clature76-source/clientcommands-mod-26.3/releases/tag/v2.16.2-fabric-charoite),
+   or build it yourself from [`fabric-charoite/fabric-charoite.patch`](fabric-charoite/fabric-charoite.patch),
+   and move it to the mods folder.
 
 `betterconfig`, `clientarguments` and `simplewaypoints` are bundled inside the jar.
 

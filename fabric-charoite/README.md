@@ -70,8 +70,9 @@ git apply /path/to/fabric-charoite.patch
 ./gradlew build
 ```
 
-The jar is written to `build/libs/clientcommands-<version>.jar`. A prebuilt jar is provided in
-`dist/`.
+The jar is written to `build/libs/clientcommands-<version>.jar`. A prebuilt jar is attached to the
+[v2.16.2-fabric-charoite release](https://github.com/clature76-source/clientcommands-mod-26.3/releases/tag/v2.16.2-fabric-charoite)
+rather than committed to the repository.
 
 ## Installing
 
